@@ -1,0 +1,11 @@
+mode: stackelberg
+env:
+  uncertainty_mode: fixed
+  task_type: routine
+  feasible_analytic_regime: true
+  seed: 9
+train:
+  episodes: 100
+  warmup_steps: 128
+  alternating_interval: 4
+output_dir: results

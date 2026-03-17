@@ -1,0 +1,11 @@
+mode: cooperative
+recurrent_policy: true
+env:
+  uncertainty_mode: hidden_parameter
+  task_type: routine
+  seed: 11
+train:
+  episodes: 100
+  warmup_steps: 128
+  risk_lambda: 0.0
+output_dir: results
