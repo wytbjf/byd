@@ -1,0 +1,11 @@
+mode: cooperative
+env:
+  uncertainty_mode: step_random
+  task_type: creative
+  seed: 13
+train:
+  episodes: 120
+  warmup_steps: 128
+  risk_lambda: 0.1
+  robust_randomization: true
+output_dir: results

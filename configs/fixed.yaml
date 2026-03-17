@@ -1,0 +1,11 @@
+mode: nash
+env:
+  uncertainty_mode: fixed
+  task_type: routine
+  feasible_analytic_regime: true
+  seed: 7
+train:
+  episodes: 100
+  warmup_steps: 128
+  robust_randomization: false
+output_dir: results
